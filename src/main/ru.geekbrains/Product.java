@@ -8,9 +8,9 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 
-@WebServlet(name = "Catalog", urlPatterns = "/product")
+@WebServlet(name = "Product", urlPatterns = "/product")
 public class Product extends HttpServlet {
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(Catalog.class);
+    private static final Logger logger = (Logger) LoggerFactory.getLogger(Product.class);
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws  IOException {
