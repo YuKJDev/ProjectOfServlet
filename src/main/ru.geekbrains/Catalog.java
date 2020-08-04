@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.logging.Logger;
 
-@WebServlet(name = "Catalog", urlPatterns = "/catalog")
+//@WebServlet(name = "Catalog", urlPatterns = "/catalog")
 
 public class Catalog extends HttpServlet {
     private static Logger logger = (Logger) LoggerFactory.getLogger(Catalog.class);
