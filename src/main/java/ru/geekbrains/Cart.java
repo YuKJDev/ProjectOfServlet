@@ -12,7 +12,7 @@ public class Cart extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         Main.logger.info("New GET request");
-        resp.getWriter().printf("<h1>This is a Cart page</h1>");
+        resp.getWriter().printf("<h1>Корзина</h1>");
     }
 
     @Override
