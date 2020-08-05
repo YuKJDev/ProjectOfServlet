@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.logging.Logger;
 
 
-@WebServlet(name = "Product", urlPatterns = "/product")
+//@WebServlet(name = "Product", urlPatterns = "/product")
 public class Product extends HttpServlet {
     private static final Logger logger = (Logger) LoggerFactory.getLogger(Product.class);
 

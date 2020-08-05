@@ -12,7 +12,7 @@
     <resource url="http://xmlns.jcp.org/xml/ns/javaee" location="$PROJECT_DIR$" />
     <resource url="http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" location="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
