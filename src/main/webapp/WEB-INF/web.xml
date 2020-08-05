@@ -33,5 +33,24 @@
     <url-pattern>/product</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>Cart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Order</servlet-name>
+    <servlet-class>Order</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Order</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+
+
 
 </web-app>
