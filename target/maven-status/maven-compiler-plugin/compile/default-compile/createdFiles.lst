@@ -3,5 +3,4 @@ ru/geekbrains/Catalog.class
 ru/geekbrains/Product.class
 ru/geekbrains/ErrorServlet.class
 ru/geekbrains/Main.class
-ru/geekbrains/filter/EncodingFilter.class
 ru/geekbrains/Cart.class
